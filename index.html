@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="intro-body">
+      <nav class="flex justify-s align-c padding-1">
+        <span>
+          <h1>Zippy</h1>
+        </span>
+        <img
+          onclick="show()"
+          id="navbutton0"
+          src="images/menu-svgrepo-com.svg"
+          style="height: 32px"
+          alt=""
+        />
+        <img
+          onclick="closes()"
+          id="navbutton1"
+          src="images/cancel.png"
+          style="height: 32px"
+          alt=""
+        />
+
+        <span class="nav-part flex justify-s align-c" id="nav-part-id">
+          <a href="#">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">Teams</a>
+
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </span>
+      </nav>
+
+      <div
+        class="
+          flex
+          justify-s
+          align-l
+          padding-1
+          flex-column
+          padding-1
+          intro-text
+        "
+      >
+        <h2>One page promsing all your needs!</h2>
+        <h3>
+          The photoshop version of Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Maiores veniam, digLorem ipsum dolor sit amet
+        </h3>
+
+        <span id="intro-buttons">
+          <button class="btn">learn more</button>
+          <button class="btn">learn more</button>
+        </span>
+      </div>
+    </div>
+    <h1 class="text-c padding-2" style="margin: 5rem 0rem 0rem 0rem">
+      Welcome to Zippy
+    </h1>
+    <div class="flex justify-c align-c padding-1" id="welcome">
+      <h3 id="welcome-txt" class="padding-2" onscroll="packdis()">
+        The photoshop version of Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Maiores veniam, digLorem ipsum dolor sit amet
+      </h3>
+      <img src="images/umbrella.png" alt="umbrella picture" id="welcome-pic" />
+    </div>
+
+    <div class="three-pack">
+      <div class="flex flex-column justify-c align-c">
+        <img
+          src="images/table.png"
+          alt="umbrella picture"
+          class="three-pack-pic"
+        />
+
+        <h3 class="three-pack-text">
+          The photoshop version of Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Maiores veniam, digLorem ipsum dolor sit amet
+        </h3>
+      </div>
+
+      <div class="flex flex-column justify-c align-c">
+        <img
+          src="images/bell.png"
+          alt="umbrella picture"
+          class="three-pack-pic"
+        />
+        <h3 class="three-pack-text">
+          The photoshop version of Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Maiores veniam, digLorem ipsum dolor sit amet
+        </h3>
+      </div>
+
+      <div class="flex flex-column justify-c align-c">
+        <img
+          src="images/mail.png"
+          alt="umbrella picture"
+          class="three-pack-pic"
+        />
+        <h3 class="three-pack-text">
+          The photoshop version of Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Maiores veniam, digLorem ipsum dolor sit amet
+        </h3>
+      </div>
+    </div>
+    <h1 style="text-align: center; margin: 2rem 0rem 0rem 0rem">Projects</h1>
+    <div class="projects flex align-c justify-c">
+      <div class="pro">
+        <img
+          src="images/pro0.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Magician</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore
+        </p>
+      </div>
+      <div class="pro">
+        <img
+          src="images/pro1.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Right man</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore
+        </p>
+      </div>
+
+      <div class="pro">
+        <img
+          src="images/pro2.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Be good</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e
+        </p>
+      </div>
+
+      <div class="pro">
+        <img
+          src="images/pro3.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Steve jobs</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+        </p>
+      </div>
+      <div class="pro">
+        <img
+          src="images/por4.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Follish men</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore m
+        </p>
+      </div>
+    </div>
+
+    <h1 style="text-align: center">Pricing</h1>
+    <div class="pricing-grid">
+      <div class="one flex flex-column">
+        <h1>Standard Plan</h1>
+        <p>0$ Month</p>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <p>consectetur adipisicing el</p>
+        <p>eiusmod tempor incididunt ut</p>
+        <p>magna aliqua. Ut enim ad mi</p>
+        <button class="btn">learn more</button>
+      </div>
+      <div class="spone">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Maxime molestias rerum adipisci dolore necessitatibus
+        </p>
+      </div>
+      <div class="two flex flex-column">
+        <h1>Bussiness Plan</h1>
+        <p>195$ Month</p>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <p>consectetur adipisicing el</p>
+        <p>eiusmod tempor incididunt ut</p>
+        <p>magna aliqua. Ut enim ad mi</p>
+        <button class="btn">learn more</button>
+      </div>
+      <div class="sptwo">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Maxime molestias rerum adipisci dolore necessitatibus
+        </p>
+      </div>
+      <div class="three flex flex-column">
+        <h1>Premimum Plan</h1>
+        <p>1555$ Month</p>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <p>consectetur adipisicing el</p>
+        <p>eiusmod tempor incididunt ut</p>
+        <p>magna aliqua. Ut enim ad mi</p>
+        <button class="btn">learn more</button>
+      </div>
+      <div class="spthree">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Maxime molestias rerum adipisci dolore necessitatibus
+        </p>
+      </div>
+    </div>
+    <h1 style="text-align: center; padding: 2rem 0px">Zippy Team</h1>
+    <div class="team">
+      <div class="one-pic">
+        <span class="soclinks flex align-c justify-c"
+          ><i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-facebook-square fa-2x"></i
+        ></span>
+      </div>
+      <div class="two-pic">
+        <span class="soclinks flex align-c justify-c"
+          ><i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-facebook-square fa-2x"></i
+        ></span>
+      </div>
+      <div class="three-pic">
+        <span class="soclinks flex align-c justify-c"
+          ><i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-facebook-square fa-2x"></i
+        ></span>
+      </div>
+      <div class="four-pic">
+        <span class="soclinks flex align-c justify-c"
+          ><i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-facebook-square fa-2x"></i
+        ></span>
+      </div>
+      <div class="five-pic">
+        <span class="soclinks flex align-c justify-c"
+          ><i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-facebook-square fa-2x"></i
+        ></span>
+      </div>
+      <div class="six-pic">
+        <span class="soclinks flex align-c justify-c"
+          ><i class="fa fa-linkedin fa-2x"></i>
+          <i class="fa fa-facebook-square fa-2x"></i
+        ></span>
+      </div>
+    </div>
+    <h1 style="text-align: center; margin: 2rem 0px">Life Style in Zippy</h1>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/work1.jpeg" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/work2.jpeg"  />
+        
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/work3.jpeg"  />
+      
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="news flex flex-column justify-c align-c">
+      <h1>News letter signup</h1>
+      <span>
+        <input type="email" required />
+        <button type="submit">Submit</button>
+      </span>
+    </div>
+    <h1 style="text-align: center; padding: 20px 0px">Blog</h1>
+    <div class="flex align-c justify-c blog">
+      <div class="post">
+        <img
+          src="images/project.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Intro of Zippy</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+        </p>
+      </div>
+
+      <div class="post">
+        <img
+          src="images/blogone.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Is Zippy best?</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+        </p>
+      </div>
+
+      <div class="post">
+        <img
+          src="images/blogtwo.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Photoshop issue?</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+        </p>
+      </div>
+
+      <div class="post">
+        <img
+          src="images/blogthree.jpeg"
+          alt="umbrella picture"
+          class="project-pic"
+        />
+        <h1>Magical Project</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+        </p>
+      </div>
+    </div>
+    <h1 style="text-align: center" class="padding-2">Contact Us</h1>
+    <div class="flex align-c justify-c contact">
+      <div>
+        <img src="images/map.png" id="map" alt="" />
+      </div>
+      <div class="flex justify-c align-c contactdetails"> 
+        <fieldset id="contact-field" class="flex flex-column">
+          <legend class="contact-head">Contact us</legend>
+          <p>Name</p>
+          <input type="text" name="" id="" />
+          <p>Email</p>
+          <input type="text" name="" id="" />
+          <p>Subject</p>
+          <input type="text" name="" id="" />
+          <p>Message</p>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button class="contact-btn btn">learn more</button>
+        </fieldset>
+      </div>
+    </div>
+    <footer class="flex align-s justify-s">
+      <div>
+        <h2>Officce Address</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          provident doloribus officia ipsa aut cumque earum accusamus minus
+          soluta saepe.
+        </p>
+      </div>
+      <div>
+        <h2>Follow us on</h2>
+        <p>
+          Twitter <br />Facebook<br />Instagram <br />
+          Youtube
+        </p>
+      </div>
+      <div>
+        <h2>Contact Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
